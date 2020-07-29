@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
 
 
+/* Font Awesome */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
 /* Global CSS */
 
 body {
@@ -244,6 +248,23 @@ h2 {
 
 textarea{
   resize: none;
+}
+
+
+.btn-gray {
+  color: #ffffff;
+  background: #C1C1C1;
+  font-size: 18px;
+  border-width: 3px;
+  border-radius: 8px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.btn-gray:hover {
+  color: #ffffff;
+  background-color: #C1C1C1;
+  background: #C1C1C1;
 }
 
 
@@ -2606,6 +2627,156 @@ ul.timeline>li:before {
 }
 
 
+.contact-capmaign-header{
+  background: #F6F6F6;
+  border-radius: 5px;
+  border: 1px solid #CACACA;
+}
+.contact-capmaign-header .btn{
+  margin-right: 5px;
+}
+
+.contact-capmaign-header{
+  padding: 25px 15px;
+}
+
+
+.contact-capmaign-header .input-group{
+  padding-top: 25px;
+}
+
+.contact-capmaign-body{margin-top: 35px;}
+
+.contact-capmaign-header .input-group .btn span{font-size: 18px;}
+
+
+.contact-capmaign-body .media h3{
+  font-size: 16px;
+  margin-top:6px;
+  color: #2C6483;
+}
+
+.contact-capmaign-body a{
+  color: #4A4A4A;
+}
+
+.contact-capmaign-body .btn-group .btn.focus,
+.contact-capmaign-body .btn-group .btn:focus{
+  box-shadow: none;
+} 
+
+.btn-light:not(:disabled):not(.disabled).active:focus, 
+.btn-light:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-light.dropdown-toggle:focus{
+  box-shadow: none;
+}
+.contact-capmaign-footer{padding-top: 25px;}
+
+.contact-capmaign-footer p{font-size:16px; margin-bottom: 0; margin-top: 5px;}
+
+
+
+.contact-capmaign-body .table-responsive .table td, 
+.contact-capmaign-body .table-responsive .table th{
+  border-top: none;
+}
+
+
+.tr-heading{border-bottom:2px solid #323232;}
+
+.contact-capmaign-body .table-active,
+.contact-capmaign-body .table-active,
+.contact-capmaign-body .table-active>td,
+.contact-capmaign-body .table-active>th{
+  background: #F6F6F6;
+}
+
+.team-section{padding: 30px 0px;}
+
+.contact-capmaign-header .input-group-text{padding: .30rem .75rem;}
+
+.members-card{
+  background: #F6F6F6;
+  border: 1px solid #CACACA;
+  padding: 25px;
+}
+
+.team-section p a{color:#4295C3;}
+
+.members-card h3{font-weight: 400; font-size: 18px; margin-bottom: 5px; margin-top: 20px; color:#275D7B;}
+.members-card a{color:#6A9BB6;}
+.members-card p{font-size: 16px; color:#4E4E4E; margin-top: 3px;}
+
+.team-section .btn-orange{margin-top: 20px; font-weight: 400;}
+
+.team-section .nav-tabs{border-bottom: 2px solid #F1F1F1;}
+
+.team-section .nav-tabs .nav-link{
+  font-weight: 600;
+  border-bottom: 3px solid transparent; 
+}
+
+.team-section .nav-tabs .nav-link.active{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #4295C3;  
+}
+
+.team-section .nav-tabs .nav-link:hover{
+   border-bottom:none;
+   color: #306D8E;
+}
+
+.team-section .nav-tabs .nav-link:focus, 
+.team-section .nav-tabs .nav-link:hover{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.team-section p span{display: inline-block; margin-right:15px;}
+
+
+.contact-capmaign-body th {
+    font-size: 13px;
+    padding-left: 0;
+}
+
+
+.contact-capmaign-body thead{
+  border-bottom: 3px solid #323232;
+}
+.contact-capmaign-body .btn-light{padding:10px;}
+.contact-capmaign-body .btn-light p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact-capmaign-header .form-control::-webkit-input-placeholder { /* Edge */
+  color:#9F9F9F;
+}
+
+.contact-capmaign-header .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#9F9F9F;
+}
+
+.contact-capmaign-header .form-control::placeholder {
+  color:#9F9F9F;
+}
+
+.contact-capmaign-header .add-on{
+  background: #fff;
+  border-top: 1px solid #ced4da;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ced4da;
+  border-left: 1px solid #ced4da;
+}
+
+.daterangepicker .calendar th, .daterangepicker .calendar td{font-size: 14px;}
+
+.transactions-row{margin-bottom: 30px;}
+
 
 
 
@@ -2715,6 +2886,11 @@ ul.timeline>li:before {
   }
   .request-a-demo-banner{height: 300px;}
   .campaign-section-left-content .nav-link{font-size: 14px;}
+  .form-horizontal{margin-bottom: 15px;}
+  .transactions-row,.transactions-row .custom-select{
+    margin-bottom:15px;
+  }
+  
 }
 
 
@@ -3069,6 +3245,20 @@ ul.timeline>li:before {
   .funding-deadline-3 .input-group{margin-top: 20px;}
   .funding-deadline-6 .paypal{margin-top: 0;} 
   .marketing-campaign-3 .col-lg-5{margin-bottom: 15px;}
+  .contact-capmaign-footer{text-align: center; font-size: 14px;}
+  .contact-capmaign-footer p{margin-bottom: 20px;}
+  .contact-capmaign-header .btn{margin-bottom: 10px;}
+  .contact-capmaign-header .fa-search{font-size: 14px;}
+  .contact-capmaign-header .input-group-text{
+    height: 38px;
+    font-size: 14px;
+  }
+  .contact-capmaign-body .media h3, .contact-capmaign-body .table{font-size: 14px;}
+  .contact-capmaign-body .media h3{margin-top: 0px;}
+  #members p span{display: block;}
+  .team-section{padding-top: 0;}
+  .members-card{padding: 15px;}
+
 }
 
 
@@ -3293,6 +3483,8 @@ ul.timeline>li:before {
   }
   .analytics-section{padding-top: 0;}  
   .contribution-amounts-boxes{padding: 20px;}
+  .daterangepicker.opensright .calendar,
+  .daterangepicker.opensright .ranges{float: left;}
 }
 
 
@@ -3452,6 +3644,7 @@ ul.timeline>li:before {
   .data-collection-campaign-2 .btn-group>.btn:not(:first-child){
     border-radius: .25rem;
   }
+  .members-card .media{display: block;}
 }
 
 

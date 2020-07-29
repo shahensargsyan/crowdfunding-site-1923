@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title></title>    
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/datetimepicker/css/daterangepicker-bs3.css" />
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-account-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          MENU
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">Start</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it works</a>
+            </li>  
+            <li class="nav-item dropdown account-dropdown">
+              <button type="button" class="dropdown-toggle btn btn-link" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="d-lg-inline-block d-none" src="img/profile-pic.jpg" alt=""><span class="main-name-dropdown d-inline-block-md d-lg-none">My Account</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>            
+          </ul>            
+        </div>
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    <div class="view-on-top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+                <p class="mb-0">View capmaign</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-8"> 
+                <ul class="list-inline float-lg-right">
+                  <li class="list-inline-item">
+                    <a href="#">Edit</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Analytics</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="active">Contacts</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Team</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Transactions</a>
+                  </li>                  
+                  <li class="list-inline-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="img/icons/setting.svg" alt="">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown10">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                </ul>        
+            </div><!-- /.col-lg-8 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.view-on-top-bar -->
+    <div class="user-info-with-pic">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">              
+                <div class="media">
+                  <img src="img/profile-pic.jpg" class="mr-3" alt="">
+                  <div class="media-body">
+                    <h2>Transactions</h2>
+                    <p>lorem ipsum by lorem ipsum</p>
+                  </div><!-- /.media-body -->
+                </div><!-- /.media -->
+              </div><!-- /.col-lg-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.user-info-with-pic -->   
+    
+
+    <div class="container">
+      <div class="contact-capmaign-header">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="row transactions-row">
+                    <div class="col-xl-4">
+                      <form class="form-horizontal">
+                         <fieldset>
+                          <div class="control-group">
+                            <div class="controls">
+                             <div class="input-prepend input-group pt-0">
+                               <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span><input type="text" style="width: 200px" name="reservation" id="reservation" class="form-control" value="03/18/2013 - 03/23/2013" />
+                             </div>
+                            </div>
+                          </div>
+                         </fieldset>
+                       </form>                       
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <select class="custom-select">
+                          <option selected>Show Completed</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="input-group pt-0">
+                          <input type="text" class="form-control" placeholder="Filter by tag" >
+                          <div class="input-group-append">
+                            <span class="input-group-text btn" id="basic-addon2"><span aria-hidden="true">&times;</span></span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Campaign contacts receive campaign updates via email.</p>
+                <div class="dropdown float-md-left">
+                  <button class="btn btn-blue dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Download
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div><!-- /.dropdown -->
+                <button class="btn btn-gray">Send reminders</button>
+                <button class="btn btn-gray">Add offline contribution</button>
+            </div><!-- /.col-lg-9 -->
+            <div class="col-lg-3">
+              <div class="input-group pt-0">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                  <span class="input-group-text search"><i class="fa fa-search" aria-hidden="true"></i></span>
+                  <span class="input-group-text btn"><span aria-hidden="true">&times;</span></span>
+                </div>
+              </div><!-- /.input-group -->
+            </div><!-- /.col-lg-3 -->
+          </div><!-- /.row -->
+        </div><!-- /.contact-capmaign-header -->
+        <div class="contact-capmaign-body">
+          <div class="table-responsive">
+            <table class="table table-striped mb-0">
+              <thead>
+                <tr>
+                  <th>Date</th>               
+                  <th>Time</th>            
+                  <th>Total amount</th>               
+                  <th>Net amount</th>                   
+                  <th>Status</th>             
+                  <th>Transaction ID</th>             
+                  <th>Processed by</th>           
+                  <th>Contributor email</th>                 
+                  <th>Contributor name</th>              
+                  <th>Contributor message</th>           
+                  <th>Subscribe to updates</th>            
+                  <th>Tags</th>              
+                  <th>Actions</th>
+                </tr>
+              </thead>              
+            </table>
+            <div class="btn-light">
+                <p>Nothing to show</p>
+            </div>
+          </div><!-- /.table-responsive -->
+        </div><!-- /.contact-capmaign-body -->
+    </div><!-- /.container -->
+    
+    <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 footer-widget-1">
+                  <img class="img-fluid footer-logo" src="img/logo.png" alt="">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Fund anything</a></li>
+                    <li class="list-inline-item"><a href="#">Learn more</a></li>
+                  </ul>
+                  <ul class="list-inline list-second">
+                    <li class="list-inline-item"><a href="#">Company info</a></li>
+                    <li class="list-inline-item"><a href="#">Partners</a></li>
+                  </ul>
+              </div><!-- /.col-lg-6 -->
+              <div class="col-md-6">
+                  <div class="follow-us">
+                    <h2>Follow Us!</h2>
+                    <ul class="list-inline list-second float-md-right">
+                      <li class="list-inline-item"><a href="#"><img src="img/icons/social/twitter.svg" alt=""></a></li>
+                      <li class="list-inline-item"><a href="#"><img src="img/icons/social/youtube.svg" alt=""></a></li>
+                      <li class="list-inline-item"><a href="#"><img src="img/icons/social/facebook.svg" alt=""></a></li>
+                      <li class="list-inline-item"><a href="#"><img src="img/icons/social/insta.svg" alt=""></a></li>
+                      <li class="list-inline-item"><a href="#"><img src="img/icons/social/linkedin.svg" alt=""></a></li>
+                    </ul>
+                  </div>
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.footer-top -->
+        <div class="footer-bottom text-center">
+            <div class="container">
+              <div class="row clearfix">
+                <div class="col-md-12">
+                  <ul class="list-inline footer-bottom-list">
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                    <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Copyright © 2019 -2020 Connection Point Systems Inc. (· Blaqseed™ )</p>                  
+                </div>
+              </div>
+            </div>
+        </div><!-- /.footer-bottom -->
+      </footer><!-- /.footer -->
+        
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+	  <script src="js/main.js"></script>
+
+    <script src="vendor/datetimepicker/js/moment.min.js"></script>
+    <script src="vendor/datetimepicker/js/daterangepicker.js"></script>
+    
+
+
+    <script>
+     $(document).ready(function() {
+        $('#reservation').daterangepicker(null, function(start, end, label) {
+          console.log(start.toISOString(), end.toISOString(), label);
+        });
+     });
+    </script>
+	</body>
+</html>
